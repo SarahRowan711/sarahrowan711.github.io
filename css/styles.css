@@ -11387,7 +11387,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #59405C;
 }
 
 .dev-icons {
@@ -11418,5 +11418,32 @@ section.resume-section .resume-section-content {
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+}
+
+section.footer-section {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: 75rem;
+}
+section.footer-section .footer-section-content {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  section.footer-section {
+    min-height: 5vh;
+  }
+}
+@media (min-width: 992px) {
+  section.footer-section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
