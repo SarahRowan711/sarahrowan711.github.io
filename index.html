@@ -26,9 +26,9 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                 </ul>
             </div>
@@ -60,6 +60,61 @@
                     </div>
                 </div>
             </section>
+            <hr class="m-0" />
+            <!-- Portfolio-->
+            <section class="resume-section" id="portfolio">
+                <div class="resume-section-content">
+                <h2 class="mb-5">Portfolio</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="assets/img/pacmen.PNG" alt="pacmen">
+                                <div class="card-body">
+                                    <p class="h3">Flying Pacmen Game</p>
+                                    <p class="card-text">Create Pacmen and send them flying across the screen!</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a type="button" button type="button" class="btn btn-sm btn-primary" href="./pacmen.html">View Preview</a>
+                                            <a type="button" button type="button" class="btn btn-sm btn-secondary" href="https://github.com/SarahRowan711/flying-pacmen" target="_blank">GitHub</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="assets/img/creepy_eye_animation.PNG" alt="creepy eyes">
+                                <div class="card-body">
+                                    <p class="h3">Creepy Eyes</p>
+                                    <p class="card-text">Watch the creepy eyes follow you around the screen!</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a type="button" button type="button" class="btn btn-sm btn-primary" href="./creepyeyes.html">View Preview</a>
+                                            <a type="button" button type="button" class="btn btn-sm btn-secondary" href="https://github.com/SarahRowan711/spooky-eyes" target="_blank">GitHub</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="assets/img/brewery_tour.PNG" alt="brewery tour">
+                                <div class="card-body">
+                                    <p class="h3">Brewery Tour</p>
+                                    <p class="card-text">Tour the breweries of the South Slope Brewing District of Asheville, NC!</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a type="button" button type="button" class="btn btn-sm btn-primary" href="./breweries.html">View Preview</a>
+                                            <a type="button" button type="button" class="btn btn-sm btn-secondary" href="https://github.com/SarahRowan711/breweries" target="_blank">GitHub</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>   
             <hr class="m-0" />
             <!-- Experience-->
             <section class="resume-section" id="experience">
@@ -130,49 +185,6 @@
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Portfolio-->
-            <section class="resume-section" id="portfolio">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Portfolio</h2>
-                    <h3 class="mb-5">GitHub Portfolio Projects</h3>
-                    <div class="subheading mb-0"> PacMan Animation Project </div>
-                    <span class="text-primary">
-                        This project is an animation of PacMan moving back and forth across the screen.
-                        <p></p>
-                        img tba <img src="" width="300" height="auto">
-                        <p></p>
-                        <a href="" target="blank">See this project in GitHub</a>
-                    </span> 
-                    <p></p>
-                    <div class="subheading mb-0">Spooky Eyes Animation Project</div>
-                    <span class="text-primary">
-                        This project is a simple animation which lets you move the irises around in a set of creepy eyes! 
-                        Moving the mouse around in a browser moves the yellow irises. 
-                        <p></p>
-                        <img src="assets/img/creepy_eye_animation.PNG" width="300" height="auto">
-                        <p></p>
-                        <a href="https://github.com/SarahRowan711/spooky-eyes" target="blank">See this project in GitHub</a>
-                    </span>
-                    <p></p>
-                    <div class="subheading mb-0">Asheville South Slope Brewing District Tour</div>
-                    <span class="text-primary">
-                        This is my own take on our "Real Time Bus Tracker" assignment. I used the base code from the original assignment,
-                        but I changed it to animate the markers around breweries in the Asheville South Slope Brewery District. I also made the following changes:
-                        <ul>
-                            <li>changed the map style to dark</li>
-                            <li>updated all the variable names to make sense with my concept change</li>
-                            <li>changed the long/lat entries in the existing array to match locations of breweries</li>
-                            <li>changed the starting marker location to an arbitrary point near the middle of the district (this will display text if the marker is clicked before the button - I can't figure out how to get it to display on load, yet)</li>
-                            <li>added a second array for brewery names (I want to modify the first array to be multi-dimensional and store both the location and names, but I'm not there yet)</li>
-                            <li>used the brewery names array to display a popup on the marker with the brewery's name as the marker moves</li>
-                            <li>changed the text on the button to start the animation</li>
-                        </ul>
-                        <p></p>
-                        <img src="assets/img/brewery_tour.PNG" width="300" height="auto">
-                        <p></p>
-                        <a href="https://github.com/SarahRowan711/breweries" target="blank">See this project in GitHub</a>
-                    </span>                     
-            </section>
             <!-- Skills-->
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
@@ -216,62 +228,21 @@
                         <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
                         <li class="list-inline-item"><i class="fab fa-npm"></i></li>
                     </ul>
+                    <p>
+                        <div><a href="#">Back to top</a></div>
+                    </p>
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Awards-->
-            <!--<section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Awards</h2>
-                    <ul class="fa-ul mb-0">
-                         <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li> 
-                    </ul>
+            <section class="footer-section">
+                <div class="footer-section-content">
+                    <div>Bootstrap template sourced from <a href="https://startbootstrap.com/theme/resume" target="_blank">startbootstrap.com</a> and modified by Sarah Rowan</div>
+                    <div>Cards layout sourced from <a href="https://getbootstrap.com/docs/5.1/examples/album/" target="_blank">getbootstrap.com</a> and modified by Sarah Rowan </div>
+                    <div>Icon made by <a href="https://www.freepik.com" title="Freepik" target="_blank">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com</a> and converted to .ico at <a href="https://icoconvert.com/" target="_blank">https://icoconvert.com/</a></div>
+                    <div>Flower crown in photo inspired by the art of <a href="https://www.instagram.com/p/By5yOygFIzo/" target="_blank">Hannah Alexander</a></div>
                 </div>
-            </section>-->
-        <section class="footer-section">
-            <div class="footer-section-content">
-                <div>Bootstrap template sourced from <a href="https://startbootstrap.com/theme/resume" target="_blank">https://startbootstrap.com/theme/resume</a> and modified by Sarah Rowan</div>
-                <div>Icon made by <a href="https://www.freepik.com" title="Freepik" target="_blank">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com</a> and converted to .ico at <a href="https://icoconvert.com/" target="_blank">https://icoconvert.com/</a></div>
-                <div>Flower crown in photo inspired by the art of <a href="https://www.instagram.com/p/By5yOygFIzo/" target="_blank">Hannah Alexander</a></div>
-            </div>
-        </section>
+            </section>
+        </div>    
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
